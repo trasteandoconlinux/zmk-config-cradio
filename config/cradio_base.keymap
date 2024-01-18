@@ -131,10 +131,10 @@ ZMK_BEHAVIOR(smart_mouse, tri_state,
 
 /* Custom behaviors */
 
-// Alt+Tab swapper, requires PR #1366
+// Cmd+Tab swapper, requires PR #1366
 ZMK_BEHAVIOR(swapper, tri_state,
     bindings = <&kt LGUI>, <&kp TAB>, <&kt LGUI>;
-    ignored-key-positions = <LT2>;
+    ignored-key-positions = <LT3 LM1>;
 )
 
 // reuse basic mod-morph scheme
